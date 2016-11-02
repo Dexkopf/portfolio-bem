@@ -1,0 +1,25 @@
+.about-me {
+  background-image: url(../images/bgblue.png);
+  background-attachment: fixed;
+  padding: 100px;
+  position: relative;
+  top: -80px;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__text {
+    max-width: 70%;
+  }
+  &__img {
+    background-image: url(../images/headshot.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 380px;
+    min-width: 250px;
+    max-width: 30%;
+    overflow: hidden;
+  }
+}
