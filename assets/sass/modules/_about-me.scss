@@ -9,6 +9,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  &__proffesion {
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+  &__slogan {
+    margin: 0;
+    color: white;
+    &--last {
+      margin-bottom: 20px;
+    }
+  }
+  &__description {
+    color: white;
+  }
   &__text {
     max-width: 70%;
   }

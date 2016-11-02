@@ -1,6 +1,14 @@
 .text {
-
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-size: 26px;
+  font-weight: 500;
   &--white {
     color: white;
+  }
+  &--span {
+    color: $blue;
+    font-weight: 600;
   }
 }
