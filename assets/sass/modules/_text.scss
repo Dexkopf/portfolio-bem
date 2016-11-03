@@ -7,6 +7,17 @@
   &--white {
     color: white;
   }
+  &--blue {
+    font-size: 22px;
+    color: $blue;
+    font-weight: 600;
+  }
+  &--big {
+    text-transform: uppercase;
+    font-size: 32px;
+    color: white;
+    font-weight: 800;
+  }
   &--span {
     color: $blue;
     font-weight: 600;
